@@ -1,6 +1,6 @@
 {
     "azureFunctions.javaBuildTool": "maven",
-    "azureFunctions.deploySubpath": "target/azure-functions/AVI-JRS-APP-1651741098100",
+    "azureFunctions.deploySubpath": "target/azure-functions/JRS-APP-1651743345890",
     "azureFunctions.projectLanguage": "Java",
     "azureFunctions.projectRuntime": "~4",
     "debug.internalConsoleOptions": "neverOpen",
