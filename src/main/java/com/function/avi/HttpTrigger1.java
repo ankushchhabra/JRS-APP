@@ -1,4 +1,4 @@
-package com.function;
+package com.function.avi;
 
 import java.util.*;
 import com.microsoft.azure.functions.annotation.*;
@@ -7,15 +7,15 @@ import com.microsoft.azure.functions.*;
 /**
  * Azure Functions with HTTP Trigger.
  */
-public class avinash {
+public class HttpTrigger1 {
     /**
-     * This function listens at endpoint "/api/avinash". Two ways to invoke it using "curl" command in bash:
-     * 1. curl -d "HTTP Body" {your host}/api/avinash
-     * 2. curl {your host}/api/avinash?name=HTTP%20Query
+     * This function listens at endpoint "/api/HttpTrigger1". Two ways to invoke it using "curl" command in bash:
+     * 1. curl -d "HTTP Body" {your host}/api/HttpTrigger1
+     * 2. curl {your host}/api/HttpTrigger1?name=HTTP%20Query
      */
-    @FunctionName("avinash")
+    @FunctionName("HttpTrigger1")
     public HttpResponseMessage run(
-            @HttpTrigger(name = "req", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS) HttpRequestMessage<Optional<String>> request,
+            @HttpTrigger(name = "req", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.FUNCTION) HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
         context.getLogger().info("Java HTTP trigger processed a request.");
 

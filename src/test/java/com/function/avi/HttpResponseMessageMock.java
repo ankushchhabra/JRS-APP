@@ -1,4 +1,4 @@
-package com.paris.atlanta;
+package com.function.avi;
 
 import com.microsoft.azure.functions.*;
 

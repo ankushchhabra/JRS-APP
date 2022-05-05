@@ -16,7 +16,7 @@
 			"problemMatcher": "$func-java-watch",
 			"isBackground": true,
 			"options": {
-				"cwd": "${workspaceFolder}/target/azure-functions/JRS-APP-1651736459048"
+				"cwd": "${workspaceFolder}/target/azure-functions/AVI-JRS-APP-1651741098100"
 			},
 			"dependsOn": "package (functions)"
 		}

@@ -1,4 +1,4 @@
-package com.function;
+package com.function.avi;
 
 import com.microsoft.azure.functions.*;
 import org.mockito.invocation.InvocationOnMock;
